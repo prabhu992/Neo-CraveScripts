@@ -6,9 +6,9 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/Mayuresh2543/Scr
 ```
 # PixelOS Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Scripts/refs/heads/16/Crave/pixelos.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/pixelos.sh | bash"
 ```
 # KangX Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Scripts/refs/heads/16/Crave/evox.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/evox.sh | bash"
 ```
