@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/Evolution-X/manifest -b bka-q1 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bq2 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b evo-qpr1 https://github.com/Mayuresh2543/local_manifests.git .repo/local_manifests
+git clone -b lineage-16 https://github.com/prabhu992/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -22,7 +22,7 @@ rm -rf hardware/qcom-caf/common
 git clone https://github.com/mayuresh2543/android_hardware_qcom-caf_common.git hardware/qcom-caf/common
 
 # Export
-export BUILD_USERNAME=mayuresh
+export BUILD_USERNAME=prabhu992
 export BUILD_HOSTNAME=crave
 export TZ="Asia/India"
 echo "======= Export Done ======"
@@ -32,7 +32,7 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_stone-bp3a-userdebug
+lunch lineage_stone-bp4a-userdebug
 echo "============="
 
 # Install clean
