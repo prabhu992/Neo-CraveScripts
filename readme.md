@@ -8,7 +8,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/Mayuresh2543/Scr
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/pixelos.sh | bash"
 ```
-# KangX Command:
+# MistOS Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/evox.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/mist.sh | bash"
 ```
