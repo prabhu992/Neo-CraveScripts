@@ -36,4 +36,4 @@ echo "============="
 m installclean
 
 # Build rom
-mist b
+m bacon
