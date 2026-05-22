@@ -29,7 +29,7 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-mistify stone userdebug
+lunch stone userdebug
 echo "============="
 
 # Install clean
