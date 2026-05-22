@@ -24,16 +24,12 @@ export BUILD_HOSTNAME=crave
 export TZ="Asia/India"
 echo "======= Export Done ======"
 
-# Set up build environment
+# Setup environment
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-# Lunch
-lunch stone userdebug
-echo "============="
+# Force mistify to pass the full target string directly
+mistify stone userdebug
 
-# Install clean
-m installclean
-
-# Build rom
-m bacon
+# Start the build using their official command
+mist b
