@@ -3,7 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/Evolution-X/manifest -b bq2 --git-lfs
+repo init -u https://github.com/Project-Mist-OS/manifest -b 16.2 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
@@ -29,11 +29,11 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_stone-bp4a-userdebug
+mistify stone userdebug
 echo "============="
 
 # Install clean
 m installclean
 
 # Build rom
-m evolution
+mist b
