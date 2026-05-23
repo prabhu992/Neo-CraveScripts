@@ -31,5 +31,8 @@ echo "====== Envsetup Done ======="
 # Lunch
 mistify stone userdebug
 
+# Make installclean
+m installclean 
+
 # Build rom
 mist b
