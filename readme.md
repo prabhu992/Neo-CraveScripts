@@ -2,7 +2,7 @@
 
 # YAAP Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/Mayuresh2543/Scripts/refs/heads/16/Crave/yaap.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/cr.sh | bash"
 ```
 # PixelOS Command:
 ```
