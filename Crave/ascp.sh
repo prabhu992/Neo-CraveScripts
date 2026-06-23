@@ -3,7 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/Project-Mist-OS/manifest -b 16.2 --git-lfs
+repo init -u https://github.com/ascp-oss/manifest.git -b sixteen-qpr2 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
@@ -19,7 +19,7 @@ echo "============================"
 echo "============================"
 
 # Export
-export BUILD_USERNAME=prabhu992
+export BUILD_USERNAME=neo
 export BUILD_HOSTNAME=crave
 export TZ="Asia/India"
 echo "======= Export Done ======"
@@ -29,10 +29,10 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-mistify stone userdebug
+lunch stone-bp4a-user
 
 # Make installclean
 m installclean 
 
 # Build rom
-mist b
+m ascp
