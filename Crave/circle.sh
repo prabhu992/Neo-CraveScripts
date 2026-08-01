@@ -3,7 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+repo init -u https://github.com/ProjectCiRCLE-ROM/manifest.git -b 16.2 --git-lfs --no-clone-bundle
 echo "=================="
 echo "Repo init success"
 echo "=================="
