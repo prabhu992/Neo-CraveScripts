@@ -8,7 +8,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-Cr
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/pixelos.sh | bash"
 ```
-# ASCP-OSS Command:
+# Project-CiRCLE Command:
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/ascp.sh | bash"
 ```
