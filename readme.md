@@ -10,5 +10,5 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-Cr
 ```
 # Project-CiRCLE Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/ascp.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/circle.sh | bash"
 ```
