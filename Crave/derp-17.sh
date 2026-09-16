@@ -25,6 +25,9 @@ echo "======= Export Done ======"
 rm -rf build/soong
 git clone https://github.com/yaap-17-stone/build_soong --depth=1 build/soong
 
+rm -rf packages/apps/Settings
+git clone https://github.com/prabhu992/android_packages_apps_Settings --depth=1 packages/apps/Settings
+
 # Set up build environment
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
