@@ -8,7 +8,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-Cr
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/derp-17.sh | bash"
 ```
-# Project-CiRCLE Command:
+# EvolutionX 12 Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/circle.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/evo.sh | bash"
 ```
