@@ -23,7 +23,7 @@ export TZ="Asia/India"
 echo "======= Export Done ======"
 
 rm -rf build/soong
-git clone https://github.com/yaap-17-stone/build_soong --depth=1 build/soong
+git clone https://github.com/prabhu992/build_soong --depth=1 build/soong
 
 # Set up build environment
 . build/envsetup.sh
