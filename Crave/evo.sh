@@ -30,7 +30,7 @@ git clone https://github.com/prabhu992/build_soong --depth=1 build/soong
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_stone-cp2a-user
+lunch lineage_stone-cp2a-userdebug
 echo "============="
 
 # Install clean
