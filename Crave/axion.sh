@@ -3,7 +3,7 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/ascp-oss/manifest.git -b sixteen-qpr2 --git-lfs
+repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
@@ -29,10 +29,10 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch stone-bp4a-user
+axion stone va
 
 # Make installclean
 m installclean 
 
 # Build rom
-m ascp
+ax -br
