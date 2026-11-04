@@ -4,9 +4,9 @@
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/cr.sh | bash"
 ```
-# DerpFest A17 Command:
+# Axion Noesis Command:
 ```
-crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/derp-17.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/prabhu992/Neo-CraveScripts/refs/heads/16/Crave/axion.sh | bash"
 ```
 # EvolutionX 12 Command:
 ```
